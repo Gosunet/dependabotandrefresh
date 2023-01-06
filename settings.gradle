@@ -4,17 +4,6 @@ pluginManagement {
         google()
         mavenCentral()
     }
-    plugins {
-        // See https://jmfayard.github.io/refreshVersions
-        id "de.fayard.refreshVersions" version "0.51.0"
-    }
-}
-
-plugins {
-    id 'de.fayard.refreshVersions'
-}
-
-refreshVersions {
 }
 
 dependencyResolutionManagement {
@@ -23,7 +12,12 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    versionCatalogs {
+        libs {
+            library('jacoco', 'org.jacoco:org.jacoco.ant:0.8.3')
+            library('material', 'com.google.android.material:material:1.4.0')
+        }
+    }
 }
 rootProject.name = "dependabot-and-refresh"
 include ':app'
-
