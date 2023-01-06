@@ -14,7 +14,7 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         libs {
-            library('jacoco', 'org.jacoco:org.jacoco.ant:0.8.3')
+            library('jacoco', 'org.jacoco:org.jacoco.ant:0.8.8')
             library('material', 'com.google.android.material:material:1.4.0')
         }
     }
