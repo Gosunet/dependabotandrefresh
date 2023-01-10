@@ -65,7 +65,7 @@ kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version 
 mapbox = { module = "com.mapbox.maps:android", version.ref = "mapbox"}
 mapbox-sdk = { module = "com.mapbox.mapboxsdk:mapbox-sdk-turf", version = "5.9.0-alpha.1"}
 mabbox-navigation = { module = "com.mapbox.navigation:android", version = "2.10.0-beta.1"}
-navigation = { module = "androidx.navigation:navigation-common", version = "navigation" }
+2.5.3 = { module = "androidx.navigation:navigation-common", version = "navigation" }
 navigation-runtime = { module = "androidx.navigation:navigation-common-runtime", version = "navigation" }
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
 navigation-compose-hilt = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "navigation-compose" }
