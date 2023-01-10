@@ -10,7 +10,7 @@ decathlon-vitamin = "0.4.0"
 decathlon-vitamin-compose = "0.1.0-beta02"
 hilt = "2.44"
 instabug = "11.7.0"
-kotlin = "1.7.20"
+kotlin = "1.8.0"
 mapbox = "10.9.1"
 navigation = "2.5.2"
 navigation-compose = "1.0.0"
@@ -59,7 +59,7 @@ instabug = { module = "com.instabug.library:instabug", version.ref = "instabug" 
 instabug-plugin = { module = "com.instabug.library:instabug-plugin", version.ref = "instabug" }
 instabug-okhttp-interceptor = { module = "com.instabug.library:instabug-with-okhttp-interceptor", version.ref = "instabug" }
 junit5-plugin = { module = "de.mannodermaus.gradle.plugins:android-junit5", version = "1.8.2.1" }
-kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version = "1.4.0" }
+kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version = "1.8.0" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.4.1" }
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.4.0" }
 mapbox = { module = "com.mapbox.maps:android", version.ref = "mapbox"}
