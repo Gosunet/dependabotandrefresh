@@ -31,7 +31,7 @@ adjust-webbridge = { module = "com.adjust.sdk:adjust-android-webbridge", version
 android-installreferrer = { module = "com.android.installreferrer:installreferrer", version = "2.2" }
 amplitude = { module = "com.amplitude:android-sdk", version.ref = "amplitude" }
 batch = { module = "com.batch.android:batch-sdk", version.ref = "batch" }
-compose-animation = { module = "androidx.compose.animation:animation", version = "compose-ui" }
+compose-animation = { module = "androidx.compose.animation:animation", version = "1.3.3" }
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose-ui" }
 compose-material = { module = "androidx.compose.material:material", version.ref = "compose-ui" }
 compose-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose-ui" }
