@@ -9,3 +9,13 @@ updates:
     directory: "/app" # Location of package manifests
     schedule:
       interval: "daily"
+      time: "04:00"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "DO-00 ci: "
+    ignore:
+      - dependency-name: "com.mapbox.maps:android"
+      - dependency-name: "com.mapbox.navigation:android"
+      - dependency-name: "com.decathlon:decathlon-login"
+      - dependency-name: "com.batch.android:batch-sdk"
+        versions: ["1.20.0-emailing.1"]
