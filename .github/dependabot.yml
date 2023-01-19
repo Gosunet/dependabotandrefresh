@@ -6,9 +6,13 @@
 version: 2
 updates:
   - package-ecosystem: "github-actions"
-        directory: "/"
-        schedule:
-          interval: "weekly"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "04:00"
+      commit-message:
+        # Prefix all commit messages with "npm"
+        prefix: "DO-00 ci: "
   - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
