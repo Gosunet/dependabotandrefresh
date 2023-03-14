@@ -1,5 +1,5 @@
 [versions]
-adjust = "4.33.0"
+adjust = "4.33.3"
 androidx-core = "2.1.0"
 amplitude = "3.35.1"
 android-gradle-plugin = "7.5.0"
